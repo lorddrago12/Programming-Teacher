@@ -39,3 +39,20 @@ while True:
         break
     else:
         print("Please answer with yes or no.")
+
+print("QUIZ TIME!")
+print("first question")
+answer = input("Is 3.14 an int or a float? ").lower()
+
+if answer == "float":
+    print("Correct!")
+else:
+    print("Not quite. 3.14 is a float because it has decimals.")
+
+print("second question")
+answer = input("What data type is 25? ").lower()
+
+if answer == "int":
+    print("Correct!")
+else:
+    print("Not quite. 25 is a int.")
